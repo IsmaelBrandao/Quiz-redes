@@ -12,7 +12,6 @@ Este projeto é um **quiz interativo** desenvolvido em **HTML, CSS e JavaScript*
 - ✅ Feedback imediato sobre respostas corretas/incorretas  
 - ✅ Barra de progresso durante o quiz  
 - ✅ Exibição de **resultado final** com revisão das respostas  
-- ✅ **Ranking local** (armazenado no navegador via `localStorage`)  
 - ✅ Possibilidade de inserir seu nome e competir com outros usuários do mesmo dispositivo/navegador  
 
 ---
