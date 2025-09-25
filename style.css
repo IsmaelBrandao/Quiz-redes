@@ -308,8 +308,8 @@ body {
 }
 
 #results button.secondary {
-  background: #e0e0e0;
-  color: #333;
+  background: #0056b3;
+  color: #fff;
 }
 
 #results button.secondary:hover {
