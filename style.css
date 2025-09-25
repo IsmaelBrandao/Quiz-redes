@@ -276,3 +276,44 @@ body {
     width: 100%;
   }
 }
+
+/* ===== BOTÕES DE RESULTADO ===== */
+#results .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+#results button {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#results button.primary {
+  background: #0056b3;
+  color: #fff;
+}
+
+#results button.primary:hover {
+  background: #004494;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+#results button.secondary {
+  background: #e0e0e0;
+  color: #333;
+}
+
+#results button.secondary:hover {
+  background: #ccc;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
