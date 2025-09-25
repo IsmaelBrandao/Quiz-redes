@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Redes de Computadores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- MENU -->
+  <div id="menu">
+    <h1>Quiz - Redes de Computadores</h1>
+    <p>Teste seus conhecimentos: Modelo OSI, VLANs, Camadas e Endereçamento IP</p>
+    <button id="start-btn">Iniciar Quiz</button>
+  </div>
+
+  <!-- QUIZ -->
+  <div id="quiz" class="hidden">
+    <div id="quiz-header">
+      <h2 id="question-counter"></h2>
+      <div id="progress-bar"><div id="progress"></div></div>
+    </div>
+    <div id="quiz-content"></div>
+    <div id="navigation">
+      <button id="prev-btn">Anterior</button>
+      <button id="next-btn">Próxima</button>
+    </div>
+  </div>
+
+  <!-- RESULTADOS -->
+  <div id="results" class="hidden">
+    <h2>Resultado Final</h2>
+    <p id="score-text"></p>
+    <button id="retry-btn">Tentar Novamente</button>
+    <button id="menu-btn">Voltar ao Menu</button>
+
+    <div id="review"></div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
